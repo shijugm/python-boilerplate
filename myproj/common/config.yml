@@ -1,0 +1,15 @@
+dev:
+  devdb:
+    dbname: 'devdatabaseabc'
+    port: 100
+  targetpath: 'path'
+test:
+  devdb:
+    dbname: 'testabc'
+    port: 100
+  targetpath: 'testpath'
+preprod:
+  devdb:
+    dbname: 'preprodabc'
+    port: 100
+  targetpath: 'preprodpath'

@@ -1,0 +1,15 @@
+
+# For package distribution a common convention is to put the installed libraries in a file ( requirements.txt)
+ and ship it with the application .
+example
+$ pip freeze > requirements.txt
+$ cat requirements.txt
+numpy==1.9.2
+requests==2.7.0
+pytest
+pytest-cov
+pyyaml
+
+Users can then install using the -r option
+
+$ python -m pip install -r requirements.txt

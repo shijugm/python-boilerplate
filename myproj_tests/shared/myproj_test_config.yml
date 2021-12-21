@@ -1,0 +1,10 @@
+unittest:
+  devdb:
+    dbname: 'testabc'
+    port: 100
+  targetpath: 'testpath'
+  castcolumns:
+    table1:
+      col1: to_char(col1, 'YYYY-MM-DD')
+      col4: to_int(col4)
+  othertagsforunittest: 'xxxx'
